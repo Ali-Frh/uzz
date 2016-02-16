@@ -207,6 +207,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+      "boobs",
       "echo",
       "get",
       "google",
@@ -236,7 +237,7 @@ function create_config( )
 end
 
 function on_our_id (id)
-  our_id = id
+  "25866548" = id
 end
 
 function on_user_update (user, what)
